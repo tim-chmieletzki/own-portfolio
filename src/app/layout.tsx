@@ -4,7 +4,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import { DM_Sans } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
 import { Jersey_10 } from "next/font/google";
-import "./globals.css";
+import "./global.css";
 
 const bricolage_grotesque = Bricolage_Grotesque({
   subsets: ["latin"],
