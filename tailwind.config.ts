@@ -15,15 +15,15 @@ const config: Config = {
         lg: "80px",
       },
       screens: {
-        sm: "393px",
-        md: "1180px",
-        lg: "1512px",
+        sm: "375px",
+        md: "768px",
+        lg: "1400px",
       },
     },
     screens: {
-      sm: "393px", // Mobile: 393 x 852
-      md: "1180px", // Tablet: 1180 x 820
-      lg: "1512px", // Desktop: 1512 x 982
+      sm: "375px",
+      md: "768px",
+      lg: "1400px",
     },
     extend: {
       colors: {},
