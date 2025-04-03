@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import { Bricolage_Grotesque } from "next/font/google";
 import { DM_Sans } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
-import { Jersey_10 } from "next/font/google";
 import "./global.css";
 
 const bricolage_grotesque = Bricolage_Grotesque({
@@ -16,11 +15,6 @@ const inter = Inter({
 
 const dm_sans = DM_Sans({
   subsets: ["latin"],
-});
-
-const jersey_10 = Jersey_10({
-  subsets: ["latin"],
-  weight: ["400"],
 });
 
 export const metadata: Metadata = {
