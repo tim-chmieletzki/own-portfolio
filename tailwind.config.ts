@@ -7,13 +7,33 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+
+      padding: {
+        DEFAULT: "16px",
+        md: "40px",
+        lg: "112px",
+      },
+
+      screens: {
+        sm: "375px",
+        md: "768px",
+        lg: "1400px",
+      },
+    },
     screens: {
       sm: "375px",
       md: "768px",
       lg: "1400px",
     },
     extend: {
-      colors: {},
+      colors: {
+        foreground: "#141414",
+        background: "#000000",
+        textPrimary: "#FFFFFF",
+        textSecondary: "#C4C4C4",
+      },
     },
   },
   plugins: [],
