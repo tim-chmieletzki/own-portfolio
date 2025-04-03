@@ -1,4 +1,3 @@
-import { getBinaryMetadata } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
