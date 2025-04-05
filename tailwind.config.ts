@@ -9,7 +9,6 @@ const config: Config = {
   theme: {
     container: {
       center: true,
-
       padding: {
         DEFAULT: "16px",
         md: "40px",
@@ -29,10 +28,10 @@ const config: Config = {
     },
     extend: {
       colors: {
-        foreground: "#141414",
-        background: "#000000",
-        textPrimary: "#FFFFFF",
-        textSecondary: "#C4C4C4",
+        background: "#0F0F0F",
+        textPrim: "#E3E3E1",
+        textSec: "#999999",
+        primary: "#ED481D",
       },
     },
   },
