@@ -1,21 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { Bricolage_Grotesque } from "next/font/google";
-import { DM_Sans } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
 import "./global.css";
-
-const bricolage_grotesque = Bricolage_Grotesque({
-  subsets: ["latin"],
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-});
-
-const dm_sans = DM_Sans({
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Tim Chmieletzki",
